@@ -27,7 +27,7 @@ Plugin permettant de faire des "chèques" en créant un papier avec *x* argent d
 
 Permets de retirer des fonds de la banque pour obtenir une money In-Game représenté par des émeraudes
 > Prévu initialement pour Spigot 1.16 - Plugin arrêté en phase de développement, aucune mise en production
->
+
 > Nécessite EssentialsX
 
 ### Claim
@@ -69,15 +69,15 @@ Système pour la gestion d'un mini-jeu rush
 ### Réseaux Sociaux
 
 Commande pour ajouter/afficher ses réseaux sociaux
-> Prévu initialement pour Spigot 1.165 - Plugin arrêté en phase de développement, aucune mise en production
+> Prévu initialement pour Spigot 1.14/1.16 - Plugin arrêté en phase de développement, aucune mise en production
 
 ### SurvieUtility
 
 Similaire à HutopyaUtility mais spécialisé dans les besoins du Survie
-> Prévu initialement pour Spigot 1.165 - Plugin arrêté en phase de développement, aucune mise en production
+> Prévu initialement pour Spigot 1.16 - Plugin arrêté en phase de développement, aucune mise en production
 
 ### Team
 
 Ajout d'un système de team
-> Prévu initialement pour Spigot 1.165 - Plugin arrêté en phase de développement, aucune mise en production
+> Prévu initialement pour Spigot 1.16 - Plugin arrêté en phase de développement, aucune mise en production
 
