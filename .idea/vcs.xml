@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/BankNotes" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/BankSurvie" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/CustomEnchants" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Hoppers" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Hub" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/HutopyaUtility" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Réseaux Sociaux" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SurvieUtility" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Team" vcs="Git" />
+  </component>
+</project>

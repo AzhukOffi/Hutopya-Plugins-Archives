@@ -1,0 +1,88 @@
+messages:
+  npc_name: "§aBanquier" #Nom du NPC
+  gui_banquier:
+    name: "§aBanque"
+    glass_name: "§6"
+    depot_name: "§2Dépôt"
+    retrait_name: "§cRetrait"
+    infos_name: "§c§nInformations"
+    lore: #Extensible
+      1: "§6"
+      2: "§2> §fBanque d'Hutopya"
+      3: "§2> §fPlus qu'une banque, avec vous."
+  gui_retrait:
+    name: "§aBanque §2> §0Retrait"
+    glass_name: "§6"
+    infos_name: "§c§nInformations"
+    lore: #Extensible
+      1: "§6"
+      2: "§2> §fVous souhaitez retirer votre argent ?"
+      3: "§2> §fLe banquier se chargera de"
+      4: "§fde vous donner ce vous avez besoin"
+    total_name: "§c§oTotal"
+    total_lore: #Non extensible
+      1: "§2> §fBlocs§8: "
+      2: "§2> §fEmeraudes:§8 "
+      3: "§6"
+      4: "§a§oClique pour procéder à l'opération"
+    back_name: "§cFermer"
+    retirer_1: "§cRetirer 1"
+    retirer_10: "§cRetirer 10"
+    ajouter_1: "§2Ajouter 1"
+    ajouter_10: "§2Ajouter 10"
+    devise_emeraude: "§2Devise§7: §8Emeraudes"
+    devise_block: "§2Devise§7: §8Blocs d'émeraudes"
+  gui_depot:
+    name: "§aBanque §2> §0Dépôts"
+    glass_name: "§6"
+    infos_name: "§c§nInformations"
+    lore: #Extensible
+      1: "§6"
+      2: "§2> §fAucune limite de stockage !"
+      3: "§2> §fLe banquier gardera votre"
+      4: "§fargent au chaud"
+    total_name: "§c§oTotal"
+    total_lore: #Non extensible
+      1: "§2> §fBlocs§8: "
+      2: "§2> §fEmeraudes:§8 "
+      3: "§6"
+      4: "§a§oClique pour procéder à l'opération"
+    back_name: "§cFermer"
+    retirer_1: "§cRetirer 1"
+    retirer_10: "§cRetirer 10"
+    ajouter_1: "§2Ajouter 1"
+    ajouter_10: "§2Ajouter 10"
+    devise_emeraude: "§2Devise§7: §8Emeraudes"
+    devise_block: "§2Devise§7: §8Blocs d'émeraudes"
+  error:
+    all_0: "§c> Déselection"
+    not_enough: "§c> §fFonds insuffisant"
+    no_account: "§c> §fVous devez créer un compte auparavant"
+    under_0: "§c> §fVous ne pouvez aller dans le négatif"
+
+  ###########################
+  # Zone machine à échanges #
+  ###########################
+  item_name:
+    emerald_plus: "§6Emeraudes+"
+    emerald_block_plus: "§6Blocs d'emeraude+"
+  machine_name: "§aEchange de devises"
+  machine_one_XY: "§7[§c!§7] §cImpossible de poser plusieurs machine à échanges sur le même X/Y" #Qu'une machine sur le même X/Y
+  give_not_online: "§7[§c!§7] §cJoueur Offline"
+
+  machine_gui:
+    convert_to_block_emerald: "§aConvertir en Bloc d'émeraude"
+    convert_to_emerald: "§aConvertir en Emeraude"
+    convert_to_block_emerald_plus: "§aConvertir en Bloc d'émeraude+"
+    convert_to_emerald_plus: "§aConvertir en Emeraude+"
+
+    convert_from_emerald_plus: "§aConvertir depuis des Emeraudes+"
+    convert_from_block_emerald_plus: "§aConvertir depuis des Blocs d'emeraude+"
+    convert_from_emerald: "§aConvertir depuis des Emeraudes"
+    convert_from_block_emerald: "§aConvertir depuis des Blocs d'Emeraude"
+
+
+  ############################
+  #          Autres          #
+  ############################
+  no_perm: "§7[§c!§7] §cVous n'avez pas la permission"

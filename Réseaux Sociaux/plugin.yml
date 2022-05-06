@@ -1,0 +1,8 @@
+name: Reseaux
+authors: [Hutopya, Azhuk]
+version: 1.1.6
+main: fr.azhuk.Reseaux.Main
+api-version: 1.14
+commands:
+  reseaux:
+    description: Compléter vos réseaux sociaux

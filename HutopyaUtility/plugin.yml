@@ -1,0 +1,24 @@
+name: HutopyaUtility
+authors: [Hutopya, Azhuk]
+version: 1.0.1
+main: fr.azhuk.hutopyautility.Main
+depend: [ShopGUIPlus]
+commands:
+  discord:
+    description: Donne le discord
+  site:
+    description: Donne le site
+  help:
+    description: Aide du serveur
+  plugin:
+    description: liste des plugins
+  openshop:
+    description: Ouvrir un shop
+  voteannounce:
+    description: Annonce de vote
+    permission: console
+  hutopyautility:
+    description: Main command
+  kickafk:
+    description: AFK KICK
+    permission: console

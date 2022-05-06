@@ -1,0 +1,9 @@
+name: Claim
+version: 1.0.0
+main: claim.claim.System
+api-version: 1.13
+authors: [LaMich]
+description: Plugin pour claim
+commands:
+  claim:
+    description: Commande principale pour tout ce qui concerne les claims

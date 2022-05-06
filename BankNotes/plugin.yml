@@ -1,0 +1,11 @@
+name: BankNotes
+authors: [Hutopya, Azhuk]
+version: 1.0.0
+main: fr.azhuk.BankNotes.Main
+depend: [Vault, Essentials]
+api-version: 1.13
+commands:
+  withdraw:
+    description: Faire son reçu de validation
+  confirmwithdraw:
+    description: Confirmation de reçu

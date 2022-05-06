@@ -1,0 +1,37 @@
+host: localhost
+port : 3306
+database: db
+username: root
+password: pass
+table_player: tablep
+table_transfer: tablet
+messages:
+  renseign_1_arg: "§cMerci de renseigner au maximum 1 argument"
+  compte_non_renseigne: "§cNon renseigné"
+  compte: "§6Compte:"
+  color_username: "§7"
+  Twitch_Displayname: "§6Twitch"
+  Discord_Displayname: "§6Discord"
+  Insta_Displayname: "§6Instagram"
+  Twitter_Displayname: "§6Twitter"
+  Retour_Displayname: "§cRetour"
+  visible_Displayname: "§aVisible"
+  nonvisible_Displayname: "§cNon visible"
+  view_other_player_Displayname: "§aVoir un autre joueur"
+  add_compte: "§aAjoutez votre compte"
+  toggle_private: "§6Cliquez pour les rendre privée"
+  toggle_public: "§6Cliquez pour les rendre publique"
+  reseaux_non_visibles: "§7[§c!§7] §cLes réseaux sociaux de ce joueur ne sont pas visibles !"
+  joueur_introuvable: "§7[§c!§7] §cJoueur introuvable !"
+  gui_edit: "§7Mon compte >> Réseaux"
+  gui_view_other_player_before: "§7Réseaux " #Avant pseudo joueur
+  gui_view_other_player_after: "" #Après pseudo joueur
+  renseigner_pseudo: "§7[§6!§7] §7Renseigner votre compte dans le chat"
+  title_stop_1: "§cTaper \"stop\""
+  title_stop_2: "§cpour annuler"
+  suppr: "§7[§c!§7] §cVos informations ont bien été suprimmer !"
+  renseign_pseudo: "§7[§6!§7] §aRenseigner le pseudo du joueur dans le chat"
+  reseaux_invisible: "§7[§c!§7] §cVos réseaux sociaux ne sont plus visible !"
+  reseaux_visible: "§7[§a!§7] §aVos réseaux sociaux sont maintenant visible !"
+  request_cancel: "§8[§6Réseaux Sociaux§8] §aRequête annulé !"
+  success_add_compte: "§8[§6Réseaux Sociaux§8] §aVotre compte a bien été ajouté !"

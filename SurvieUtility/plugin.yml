@@ -1,0 +1,26 @@
+name: SurvieUtility
+authors: [Hutopya, Azhuk]
+version: 1.0.0
+main: fr.azhuk.survieutility.Main
+depend: [PlaceholderAPI]
+api-version: 1.13
+commands:
+  survieutility:
+    description: Main command
+  rtp:
+    description: Téléportation aléatoire
+    aliases:
+      - randomtp
+      - tprandom
+      - randomteleport
+      - teleportrandom
+  discord:
+    description: Afficher le discord
+  site:
+    description: Afficher le site
+  help:
+    description: Afficher l'aide
+  voteannounce:
+    permission: admin
+  minage:
+    description: Monde minage

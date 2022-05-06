@@ -1,0 +1,9 @@
+message:
+  info_discord: "§7[§9!§7] §9Voici notre discord : §7https://discordapp.com/invite/5prNyYx"
+  info_site: "§7[§c!§7] §cSite actuellement indisponible"
+help:
+  1: "    §aAide §8- §6Hutopya "
+  2: "§c/team §8- §aAide pour les teams"
+randomtp:
+  min: 100
+  max: 1000

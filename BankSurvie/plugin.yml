@@ -1,0 +1,10 @@
+name: BankSurvie
+authors: [Hutopya, Azhuk]
+version: 1.0.1
+api-version: 1.13
+main: fr.azhuk.banksurvie.Main
+commands:
+  money:
+    description: Affichage de la money
+  banksurvie:
+    description: Commande global de la banque

@@ -1,0 +1,10 @@
+host: localhost
+port : 3306
+database: db
+username: root
+password: pass
+table_team: team
+table_player: player
+table_transfer: transfer
+table_invite: invite
+table_claim: claim

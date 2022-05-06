@@ -1,0 +1,7 @@
+name: Claim
+author: Azhuk
+version: 1.0.0
+main: fr.azhuk.claim.Main
+commands:
+  claim:
+    description: Commande globale du plugin

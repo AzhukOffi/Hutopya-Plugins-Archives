@@ -1,0 +1,13 @@
+messages:
+  gui:
+    hoppper_gui: "§6Hopper level §8"
+    upgrade_item: "§aAméliorer"
+    filtre_item: "§6Cliquez pour configurer le filtre"
+    autokill_item: "§6Cliquez pour activer l'AutoKill"
+    autobreak_item: "§6Cliquez pour activer l'AutoBreak"
+    synchro_item: "§6Cliquez pour synchroniser ce hopper"
+    autocraft_item: "§cCliquez pour définir l'AutoCraft"
+  upgrade:
+    err_not_enough: "Vous n'avez pas assez"
+    err_no_account: "Nous n'avons pas trouvé votre compte"
+    hopper_upgrade: "upgrade réussi"

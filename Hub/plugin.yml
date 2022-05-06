@@ -1,0 +1,10 @@
+name: Hub
+author: Azhuk
+version: 1.0.0
+main: fr.azhuk.hub.Main
+api-version: 1.13
+commands:
+  settings:
+    description: Paramètres du hub
+  elytreparcours:
+    description: En dev

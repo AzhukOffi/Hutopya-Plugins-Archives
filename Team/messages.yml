@@ -1,0 +1,112 @@
+#####################
+#        Team       #
+#####################
+
+gui:
+  teamsInv:
+    name: "§6Choisir la team" #Nom de l'inv
+    team_color: "§6" #Couleur d'affichage des teams
+  teamEditInv:
+    name: "§6Edition de la team : §8" #Nom de l'inv
+    icon: "§6Changez l'icône de l'équipe" #Nom de l'item pour modif l'icone
+    icon_lore:
+      1: "§8Icône actuel : "
+      2: "§6" #Rajout du nom de la team à la fin
+      3: "§6" #Espace vide
+      4: "§c> §8Cliquez pour changer"
+    prefix: "§6Changez le prefix de l'équipe" #Nom de l'item pour modif le prefix
+    prefix_lore:
+      1: "§8Prefix actuel : "
+      2: "§6" #Rajout du nom de la team à la fin
+      3: "§6" #Espace vide
+      4: "§c> §8Cliquez pour changer"
+    teamname: "§6Changez le nom de l'équipe" #Nom de l'item pour modif le nom de la team
+    teamname_lore:
+      1: "§8Nom actuel : "
+      2: "§6" #Rajout du nom de la team à la fin
+      3: "§6" #Espace vide
+      4: "§c> §8Cliquez pour changer"
+    desc: "§6Changez la description de l'équipe" #Nom de l'item pour modif la description de la team
+    desc_lore:
+      1: "§8Description actuel : "
+      2: "§6" #Rajout du nom de la team à la fin
+      3: "§6" #Espace vide
+      4: "§c> §8Cliquez pour changer"
+  teamViewInv:
+    name: "§6Visionnage de la team : §8" #Nom de l'inv
+  LeaveTeam:
+    name: "§cChoisissez la team à quitter"
+  TeamMembers:
+    name: "§9Membres de la team"
+    next: "§6Page suivante"
+    previous: "§6Page précédente"
+    actuel: "§6Page Actuel : "
+    chef: "§6Chef: "
+  RankInv:
+    name: "§9Changer le rank"
+    iron: "§9Passer le joueur au grade : Membres"
+    gold: "§9Passer le joueur au grade : Officier"
+    diamond: "§9Passer le joueur au grade : Adjoint"
+chat:
+  Global_Help: "§8[§9!§8] §9Aide §8: §8Vous pouvez avoir la liste des commandes avec la touche tabulation"
+  teamEdit:
+    desc_too_long: "§8[§c!§8] §4Erreur§8: §cCette description est trop longue, la limite est 40 caractères, veuillez ressayer" #Le texte pour la description est trop long
+    prefix_too_long: "§8[§c!§8] §4Erreur§8: §cCe prefix est trop longue, la limite est 4 caractères, veuillez ressayer" #Le texte pour le prefix est trop long
+    name_too_long: "§8[§c!§8] §4Erreur§8: §cCe nom est trop longue, la limite est 10 caractères, veuillez ressayer" #Le texte pour le nom est trop long
+    unknow_item: "§8[§c!§8] §4Erreur§8: §cCette objet nous est inconnu, veuillez ressayer" #L'item renseigné est inconnu
+    update_success:
+      name: "§8[§a!§8] §aVotre nom de team a bien été update" #Le nom a été mis à jour
+      desc: "§8[§a!§8] §aVotre description de team a bien été update" #La description a été mis à jour
+      icon: "§8[§a!§8] §aVotre icone de team a bien été update" #L'icone a été mis à jour
+      prefix: "§8[§a!§8] §aVotre prefix de team a bien été update" #Le prefix a été mis à jour
+    enter_value:
+      name: "§8[§9!§8] §9Veuillez entrer votre nouveau nom de team" #Veuillez entrez le nom
+      desc: "§8[§9!§8] §9Veuillez entrer votre nouvelle description de team" #Veuillez entrez la description
+      icon: "§8[§9!§8] §9Veuillez entrer votre nouveau icone de team" #Veuillez entrez l'icone
+      prefix: "§8[§9!§8] §9Veuillez entrer votre nouveau prefix de team" #Veuillez entrez le prefix
+  owner:
+    Help: "§8[§9!§8] §9Aide §8: §8/team owner <pseudo>"
+    toOwner: "§8[§9!§8] §9Tu es maintenant le chef de votre team" #Message reçu quand on est mis chef
+    setOwner: "§8[§9!§8] §9Tu as changé le chef de team"
+    Not_in_team: "§8[§c!§8] §4Erreur§8: §cTu n'es pas dans la même team"
+    Not_online: "§8[§c!§8] §4Erreur§8: §cCe joueur n'est pas en ligne"
+  invite:
+    Help: "§8[§9!§8] §9Aide §8: §8/team invite <pseudo>"
+    clickForAccept: "§8[§9!§8] §9Vous avez été invité dans la team de %player% ! Clique pour rejoindre" #Message cliquable pour accepter l'invite
+    Accepted: "§8[§9!§8] §9Vous avez été accepté l'invitation de %player%"
+    expired_for_invited: "§8[§c!§8] §4Erreur§8: §cl'invitation de %player% a expiré"
+    expired_for_sender: "§8[§c!§8] §4Erreur§8: §cl'invitation envoyé à %player% a expiré"
+    Already_In_Team: "§8[§c!§8] §4Erreur§8: §cTu es déjà dans une team"
+    Not_online: "§8[§c!§8] §4Erreur§8: §cCe joueur n'est pas en ligne"
+    Not_in_team: "§8[§c!§8] §4Erreur§8: §cTu n'es pas dans la même team"
+  accept:
+    Not_in_team: "§8[§c!§8] §4Erreur§8: §cVous n'avez aucune invitation en attente"
+    Help: "§8[§9!§8] §9Aide §8: §8/team accept <pseudo>"
+  leave:
+    Help: "§8[§9!§8] §9Aide §8: §8/team leave"
+    ClickForLeave: "§8[§9!§8] §9Clique pour valider le départ de ta team"
+    ValidLeave: "§8[§c!§8] §cTu as bien quitté ta team" #Le joueur a bien quitté sa team
+    Not_in_the_team: "§8[§c!§8] §4Erreur§8: §cTu n'es pas dans cette team"
+    isOwner: "§8[§c!§8] §4Erreur§8: §cVous êtes le chef de votre team" #Message reçu quand vous essayer de quitter alors que vous êtes chef
+    Team_not_exist: "§8[§c!§8] §4Erreur§8: §cCette team n'existe pas"
+  create:
+    Help: "§8[§9!§8] §9Aide §8: §8/team create <nom>"
+    Already_in_team: "§8[§c!§8] §4Erreur§8: §cVous êtes déjà dans une team"
+    Team_Already_Exist: "§8[§c!§8] §4Erreur§8: §cCette team existe déjà"
+    Success: "§8[§a!§8] §aLa team a bien été crée"
+  rank:
+    Help: "§8[§9!§8] §9Aide §8: §8/team rank <pseudo>"
+    NotInTeam: "§8[§c!§8] §4Erreur§8: §cCette personne n'est pas dans votre team"
+    HaveNoTeam: "§8[§c!§8] §4Erreur§8: §cVous n'avez pas de team"
+  members:
+    Help: "§8[§9!§8] §9Aide §8: §8/team members [pseudo]"
+    no_page: "§8[§c!§8] §4Erreur§8: §cPage introuvable"
+    team_not_exists: "§8[§c!§8] §4Erreur§8: §cCette team n'existe pas"
+  disband:
+    player: "§8[§c!§8] §cVotre team a bien été suprimmée"
+    admin: "§8[§c!§8] §cLa team a bien été suprimmée"
+
+
+#####################
+#        Claim      #
+#####################

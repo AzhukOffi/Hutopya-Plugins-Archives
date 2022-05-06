@@ -1,0 +1,8 @@
+name: BackupRestorer
+author: Azhuk
+version: 1.0.0
+main: fr.azhuk.backuprestorer.Main
+api-version: 1.13
+commands:
+  restorebackup:
+    description: Restaurer une backup

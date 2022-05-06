@@ -1,0 +1,10 @@
+name: Team
+author: [Hutopya, Azhuk]
+version: 1.0.0
+main: fr.azhuk.team.Main
+api-version: 1.13
+commands:
+  team:
+    description: Commande globale du plugin
+  claim:
+    description: Commande du claim

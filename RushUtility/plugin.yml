@@ -1,0 +1,20 @@
+name: RushUtility
+author: Azhuk
+version: 1.0.0
+main: fr.azhuk.rushutility.Main
+api-version: 1.13
+commands:
+  leave:
+    description: Quitter sa team
+  join:
+    description: Rejoindre une team
+  help:
+    description: Aide
+  aide:
+    description: Aide
+  "?":
+    description: Aide
+  start:
+    description: Démarrage
+  end:
+    description: Fin de game

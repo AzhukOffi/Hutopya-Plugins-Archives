@@ -1,0 +1,9 @@
+name: Hoppers
+author: Azhuk
+version: 1.0.0
+main: fr.azhuk.hoppers.Main
+api-version: 1.13
+depends: [FabledSkyblock,Vault]
+commands:
+  hoppers:
+    description: Give de hopper

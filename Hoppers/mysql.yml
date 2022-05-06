@@ -1,0 +1,9 @@
+host: localhost
+port : 3306
+database: db
+username: root
+password: pass
+table_hopper: hoppers
+table_whitelist: whitelist
+table_blacklist: blacklist
+table_rejets: rejets
